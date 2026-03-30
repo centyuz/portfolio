@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Centyuz</title>
+  <link rel="icon" href="imgs/favicon.png" type="image/x-icon">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/5f61ca79dc.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="container">
+
+    <div class="header">
+      <h1 class="title">Centyuz</h1>
+      <div class="lang-selector" id="langSelector">
+        <button class="lang-btn" data-lang="en">EN</button>
+        <button class="lang-btn" data-lang="id">ID</button>
+        <button class="lang-btn" data-lang="jv">JV</button>
+      </div>
+    </div>
+
+    <div class="bento-grid">
+
+      <div class="bento-section-label" data-i18n="gamesLabel">Games I’m Into</div>
+
+      <div class="carousel-outer">
+        <div class="carousel-viewport" id="carouselViewport">
+          <div class="carousel-track" id="carouselTrack">
+
+            <!-- Roblox -->
+            <div class="game-slide game-roblox">
+              <div class="slide-bg-pattern"></div>
+              <img src="imgs/roblox.svg" class="slide-logo" alt="Roblox">
+              <img src="imgs/roblox_avatar.svg" class="slide-char" alt="DesaBLX">
+              <div class="slide-info">
+                <div class="slide-title">Roblox</div>
+                <div class="slide-sub">DesaBLX</div>
+              </div>
+            </div>
+
+            <!-- Stumble Guys -->
+            <div class="game-slide game-stumble">
+              <div class="slide-bg-pattern"></div>
+              <img src="imgs/stumbleguys.svg" class="slide-logo slide-logo--wide" alt="Stumble Guys">
+              <img src="imgs/stumbleguys_skin.svg" class="slide-char" alt="Centyuz">
+              <div class="slide-info">
+                <div class="slide-title">Stumble Guys</div>
+                <div class="slide-sub">Centyuz</div>
+              </div>
+            </div>
+
+            <!-- Minecraft -->
+            <div class="game-slide game-minecraft">
+              <div class="slide-bg-pattern"></div>
+              <img src="imgs/minecraft.svg" class="slide-logo" alt="Minecraft">
+              <img src="imgs/minecraft_skin.svg" class="slide-char" alt="TheArmy3507">
+              <div class="slide-info">
+                <div class="slide-title">Minecraft</div>
+                <div class="slide-sub">TheArmy3507</div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="carousel-dots" id="carouselDots">
+          <button class="dot" data-idx="0" aria-label="Roblox"></button>
+          <button class="dot" data-idx="1" aria-label="Stumble Guys"></button>
+          <button class="dot" data-idx="2" aria-label="Minecraft"></button>
+        </div>
+      </div>
+
+      <div class="bento-section-label" data-i18n="findMeLabel">Let’s Connect!</div>
+
+      <a href="https://x.com/centyuz" target="_blank" class="bento-cell social-cell cell-x" aria-label="X profile">
+        <i class="fa-brands fa-x-twitter bento-icon"></i>
+        <div class="social-text">
+          <div class="card-title">X</div>
+          <div class="card-subtitle">centyuz</div>
+        </div>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a href="https://open.spotify.com/user/31sxazlj4fj5mmtz3hi5kpez77za?si=iOYPWy58S_-aPsbqGNMC1Q" target="_blank" class="bento-cell social-cell cell-spotify" aria-label="Spotify profile">
+        <i class="fa-brands fa-spotify bento-icon"></i>
+        <div class="social-text">
+          <div class="card-title">Spotify</div>
+          <div class="card-subtitle">centyuz</div>
+        </div>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a href="https://www.instagram.com/centyuz?igsh=MXRxcGVqc2RhZzZ5aw==" class="bento-cell social-cell cell-instagram" aria-label="Instagram profile">
+        <i class="fa-brands fa-instagram bento-icon"></i>
+        <div class="social-text">
+          <div class="card-title">Instagram</div>
+          <div class="card-subtitle">centyuz</div>
+        </div>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+      
+      <a href="https://www.tiktok.com/@centyuz?_r=1&_t=ZS-955VhCa6xt6" class="bento-cell social-cell cell-tiktok" aria-label="TikTok profile">
+        <i class="fa-brands fa-tiktok bento-icon"></i>
+        <div class="social-text">
+          <div class="card-title">TikTok</div>
+          <div class="card-subtitle">centyuz</div>
+        </div>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+      
+      <a href="https://youtube.com/@centyuz?si=XyUEMUmZTb14O0fs" target="_blank" class="bento-cell social-cell cell-youtube" aria-label="YouTube profile">
+        <i class="fa-brands fa-youtube bento-icon"></i>
+        <div class="social-text">
+          <div class="card-title">YouTube</div>
+          <div class="card-subtitle">centyuz</div>
+        </div>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+
+      <a href="https://discord.gg/HpfbNDkW" target="_blank" class="bento-cell social-cell cell-discord" aria-label="Discord user">
+        <i class="fa-brands fa-discord bento-icon"></i>
+        <div class="social-text">
+          <div class="card-title">Discord</div>
+          <div class="card-subtitle">centyuz</div>
+        </div>
+        <span class="arrow" aria-hidden="true">↗</span>
+      </a>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
